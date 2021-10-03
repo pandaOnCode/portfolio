@@ -1,3 +1,44 @@
-h1{
-    color:red
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    font-family:'Kumbh Sans', sans-serif;
+}
+/* div{
+    
+        animation: animateBg 10s linear infinite;
+        background-image: linear-gradient(0deg,#b469c9,#5a00e0,#867ec4,#b469c9,#5a00e0);
+        background-size: 100% 400%;
+     
+}
+ 
+@keyframes animateBg {
+    0% { background-position: 0% 0%; }
+    100% { background-position: 0% 100%; }
+  } */
+
+.navbar{
+    background:#131313;
+    height:80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position:sticky;
+    top:0;
+    z-index:999;
+}
+.navbar__container{
+    display:flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index:1;
+    width:100%;
+    max-width:1300px;
+    margin:0 auto;
+    padding:0 50px;
+}
+#navbar__logo{
+    background-color: #ff8177;
+    background-image:linear-gradient(to top, #08ffe2 0%, #5575e9 100%)
 }
